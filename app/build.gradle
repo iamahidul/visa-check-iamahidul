@@ -1,0 +1,76 @@
+apply plugin: 'com.android.application'
+
+
+android {
+    compileSdkVersion 31
+    defaultConfig {
+        applicationId "com.chillbox.visacheckonline"
+        minSdkVersion 16
+        targetSdkVersion 31
+        versionCode 10
+        versionName "1.0.1"
+        multiDexEnabled true
+
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+    }
+    buildTypes {
+
+
+        debug {
+            shrinkResources true
+            minifyEnabled true
+            debuggable false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+
+        release {
+            shrinkResources true
+            minifyEnabled true
+            debuggable false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation 'androidx.appcompat:appcompat:1.4.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'com.google.firebase:firebase-database:20.0.3'
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation platform('com.google.firebase:firebase-bom:29.0.3')
+    implementation 'com.firebaseui:firebase-ui-database:6.2.1'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
+    testImplementation 'junit:junit:4.13.2'
+    implementation 'com.github.GrenderG:Toasty:1.4.1'
+    implementation "androidx.recyclerview:recyclerview:1.2.1"
+    implementation 'androidx.appcompat:appcompat:1.4.0'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'androidx.appcompat:appcompat:1.4.0'
+
+
+
+
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'com.applovin:applovin-sdk:10.3.5'
+    implementation 'com.applovin.mediation:facebook-adapter:6.8.0.0'
+    implementation 'com.google.android.gms:play-services-location:19.0.0'
+
+    implementation 'androidx.appcompat:appcompat:1.4.0'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+
+
+
+
+    apply plugin: 'applovin-quality-service'
+    applovin {
+        apiKey "TBNSgddDK1WZh2dZOBVTOfLeoz2NoarwH7D3DL34E69cQU3aOy4EiKITMTgc2o1VtpsdH6RDpWis7OFMK9sFqz"
+    }
+}
+apply plugin: 'com.google.gms.google-services'

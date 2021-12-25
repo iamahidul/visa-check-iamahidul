@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Visa Check Online :All Country</string>
+
+
+    <string name="banner_home_footer">012796ea0da87f23</string>
+    <string name="interstitial_full_screen">faa7e2ac2f4c5025</string>
+
+
+
+    <string name="ad_attribution">Ad</string>
+    <string name="cartry">Country List</string>
+    <string name="America">America</string>
+    <string name="Australia">Australia</string>
+    <string name="Bahrain">Bahrain</string>
+    <string name="Canada">Canada</string>
+    <string name="Chine">Chine</string>
+    <string name="Cyprash">Cyprash</string>
+    <string name="England">England</string>
+    <string name="Greek">Greek</string>
+    <string name="Malausia">Malausia</string>
+    <string name="India">India</string>
+    <string name="Italy">Italy</string>
+    <string name="Japan">Japan</string>
+    <string name="Kuwaite">Kuwaite</string>
+    <string name="Maldivan">Maldivan</string>
+    <string name="Oman">Oman</string>
+    <string name="Qatar">Qatar</string>
+    <string name="Saudi">Saudi Arabia</string>
+
+    <string name="Singapure">Singapure</string>
+    <string name="Tuekey">Tuekey</string>
+    <string name="Arab">Arab Emirates</string>
+
+
+
+    <string name="act_notifications">Notifications</string>
+    <string name="title_activity_news_web_view">Loading Detail</string>
+
+
+
+
+
+
+
+
+
+
+
+</resources>

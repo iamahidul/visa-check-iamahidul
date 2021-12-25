@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "632052848930",
+    "firebase_url": "https://visa-check-100.firebaseio.com",
+    "project_id": "visa-check-100",
+    "storage_bucket": "visa-check-100.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632052848930:android:db4b54e35c4815c7f62d7b",
+        "android_client_info": {
+          "package_name": "com.chillbox.visacheckonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632052848930-l5froq8hqa27pbh2qrgnrqa7if9bgnbj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmqAHVxQe2yl9YuEcRI0qVwyVprl64Amo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "632052848930-l5froq8hqa27pbh2qrgnrqa7if9bgnbj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
